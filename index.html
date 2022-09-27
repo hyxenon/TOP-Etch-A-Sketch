@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="script/app.js" defer></script>
+</head>
+<body>
+    <section class="section-center">
+        <div class="info-container">
+            <div class="info-title">
+                <h1>Etch A Sketch</h1>
+            </div>
+
+            <div class="form">
+                <div class="grid-size">
+                    <p>Grid size:</p>
+                   <input type="range" class="range" id="grid-size" name="grid-size" min="1" max="100" value="16"><span id="value"></span>
+                </div>
+
+                <div class="pen-color">
+                    <p>Pen color:</p>
+                    <input type="color" name="color-chooser" id="color-chooser">
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="container">
+                
+            </div>
+            <div class="buttons">
+                <button class="clear-btn">Clear</button>
+                <button class="clear-btn eraser">Eraser</button>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
