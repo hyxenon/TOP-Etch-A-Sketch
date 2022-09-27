@@ -61,8 +61,6 @@ function drawGrid(){
 }
 
 
-
-
 // ---------ADD GRID--------
 createGrid(range.value,range.value)
 drawGrid()

@@ -93,3 +93,19 @@ body{
     transform: scale(1.2);
 }
 
+footer{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+footer p, footer i{
+    font-size: 1.5rem;
+    color: black;
+    transition: .5s;
+}
+
+footer i:hover{
+    transform: scale(1.5);
+}
